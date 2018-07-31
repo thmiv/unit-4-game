@@ -1,20 +1,13 @@
-.crystal-image {
-    width: 300px;
-    height: 300px;
-  }
+
 body {
     background-image: url("../images/sayagata.png");
     
 }
 #jumboHeader {
-    background: url("../images/congruent_pentagon.png");
-    background-size: 70%;
-}
-.col-md-6 {
-    border: 1px dotted gainsboro;
+    background-image: url("../images/congruent_pentagon.png");
 }
 .col-md-3 {
-    border: 1px dotted gainsboro;
+    text-align: center;
 }
 .col-md-12 {
     text-align: center;
@@ -25,12 +18,23 @@ body {
     font-size: 22px;
     text-transform: uppercase;
 }
-p, h3, h6 {
+p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
 }
-h1, h4, h5 {
+h1, h4, h5, h6 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    font-style: oblique;
     color: darkorange;
+}
+#num-wins, #num-loss {
+    color: brown;
+}
+#winning-number, #current-score {
+    padding: 0 0 10px 0;
+    color: darkolivegreen;
+    font-size: 28px;
+}
+img:hover {
+    opacity: 0.7;
 }
